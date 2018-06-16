@@ -32,6 +32,7 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         layout.itemSize = CGSize(width: self.animalCollectionView.frame.size.width, height: self.animalCollectionView.frame.size.height)
         self.animalCollectionView.isPagingEnabled = true
         self.animalCollectionView!.collectionViewLayout = layout
+         self.leftBtn.isHidden = true
        
     }
 
@@ -41,9 +42,6 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         let visibleItems: NSArray = self.animalCollectionView.indexPathsForVisibleItems as NSArray
         let currentItem: IndexPath = visibleItems.object(at: 0) as! IndexPath
         let nextItem: IndexPath = IndexPath(item: currentItem.item - 1, section: 0)
-        
-       
-        
         if nextItem.item == 0
         {
             self.leftBtn.isHidden = true
@@ -106,8 +104,6 @@ class ViewController: UIViewController,UICollectionViewDelegate,UICollectionView
         let x = scrollView.contentOffset.x
         let y = scrollView.bounds.size.width
         let currentPage = Int(ceil(x/y))
-        
-        
         if currentPage == 0
         {
             self.leftBtn.isHidden = true

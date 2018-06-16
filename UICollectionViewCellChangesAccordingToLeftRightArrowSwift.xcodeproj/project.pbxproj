@@ -15,6 +15,7 @@
 		DA94C4D620D4D04B005C2D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA94C4D420D4D04B005C2D47 /* LaunchScreen.storyboard */; };
 		DA94C4E120D4D04B005C2D47 /* UICollectionViewCellChangesAccordingToLeftRightArrowSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94C4E020D4D04B005C2D47 /* UICollectionViewCellChangesAccordingToLeftRightArrowSwiftTests.swift */; };
 		DA94C4EC20D4D04B005C2D47 /* UICollectionViewCellChangesAccordingToLeftRightArrowSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94C4EB20D4D04B005C2D47 /* UICollectionViewCellChangesAccordingToLeftRightArrowSwiftUITests.swift */; };
+		DA94C4FA20D4D28C005C2D47 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA94C4F920D4D28C005C2D47 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		DA94C4E720D4D04B005C2D47 /* UICollectionViewCellChangesAccordingToLeftRightArrowSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewCellChangesAccordingToLeftRightArrowSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA94C4EB20D4D04B005C2D47 /* UICollectionViewCellChangesAccordingToLeftRightArrowSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCellChangesAccordingToLeftRightArrowSwiftUITests.swift; sourceTree = "<group>"; };
 		DA94C4ED20D4D04B005C2D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA94C4F920D4D28C005C2D47 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				DA94C4C820D4D040005C2D47 /* AppDelegate.swift */,
 				DA94C4CA20D4D040005C2D47 /* ViewController.swift */,
+				DA94C4F920D4D28C005C2D47 /* CollectionViewCell.swift */,
 				DA94C4CC20D4D040005C2D47 /* Main.storyboard */,
 				DA94C4D220D4D04B005C2D47 /* Assets.xcassets */,
 				DA94C4D420D4D04B005C2D47 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				DA94C4CB20D4D040005C2D47 /* ViewController.swift in Sources */,
 				DA94C4C920D4D040005C2D47 /* AppDelegate.swift in Sources */,
+				DA94C4FA20D4D28C005C2D47 /* CollectionViewCell.swift in Sources */,
 				DA94C4D120D4D040005C2D47 /* UICollectionViewCellChangesAccordingToLeftRightArrowSwift.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMUY72KH99;
 				INFOPLIST_FILE = UICollectionViewCellChangesAccordingToLeftRightArrowSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UMUY72KH99;
 				INFOPLIST_FILE = UICollectionViewCellChangesAccordingToLeftRightArrowSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
